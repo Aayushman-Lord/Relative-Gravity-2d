@@ -116,52 +116,23 @@ Used during merging.
 
 ---
 
-## ⚙️ Installation & Running
-
-### ✅ Recommended Method (VSCode — Press F5)
-
-This is the **intended way to run the project**.
-
+## ✅Compile
 Requirements:
 
-* VSCode
-* C/C++ Extension (Microsoft)
-* Raylib installed
+- VSCode
+- C/C++ Extension (Microsoft)
+- Raylib installed
+
+Note:
+This project includes a preconfigured .vscode folder.
+No manual setup is required.
 
 Steps:
 
 1. Open the project folder in VSCode
-2. Open `main.cpp`
-3. Press **F5**
-4. The simulator will automatically compile and run
+2. Press F5
+3. The simulator will compile and run automatically
 
-No manual compile needed.
-
----
-
-### ⚠ Manual Compile (Not required)
-
-Only for advanced users.
-
-Windows:
-
-```
-g++ main.cpp Objects.cpp -o simulator -lraylib -lopengl32 -lgdi32 -lwinmm
-```
-
-Linux:
-
-```
-g++ main.cpp Objects.cpp -o simulator -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
-```
-
-Run:
-
-```
-./simulator
-```
-
----
 
 ## 🌠 Included Simulation
 
